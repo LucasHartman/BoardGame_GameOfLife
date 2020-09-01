@@ -1,0 +1,982 @@
+.root {
+	dark-primary-color: #5d4037;
+}
+
+.anchorpane-playerPanel {
+    -fx-font-size: 14px;
+    -jfx-button-type: raised;
+    -fx-background-color: #5d4037;
+    -fx-text-fill: dark-primary-color;
+}
+
+.cellPat1 {
+    -fx-background-image: url(../image/cellDesign01_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat1:hover {
+    -fx-background-image: url(../image/cellDesign01_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat1:pressed {
+    -fx-background-image: url(../image/cellDesign01_S.png);
+	-fx-background-size: 122px 122px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cellPat2 {
+    -fx-background-image: url(../image/cellDesign02_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat2:hover {
+    -fx-background-image: url(../image/cellDesign02_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat2:pressed {
+    -fx-background-image: url(../image/cellDesign02_S.png);
+	-fx-background-size: 122px 122px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cellPat3 {
+    -fx-background-image: url(../image/cellDesign03_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat3:hover {
+    -fx-background-image: url(../image/cellDesign03_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat3:pressed {
+    -fx-background-image: url(../image/cellDesign03_S.png);
+	-fx-background-size: 122px 122px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cellPat4 {
+    -fx-background-image: url(../image/cellDesign04_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat4:hover {
+    -fx-background-image: url(../image/cellDesign04_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat4:pressed {
+    -fx-background-image: url(../image/cellDesign04_S.png);
+	-fx-background-size: 122px 122px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cellPat5 {
+    -fx-background-image: url(../image/cellDesign05_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat5:hover {
+    -fx-background-image: url(../image/cellDesign05_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat5:pressed {
+    -fx-background-image: url(../image/cellDesign05_S.png);
+	-fx-background-size: 122px 122px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cellPat6 {
+    -fx-background-image: url(../image/cellDesign06_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat6:hover {
+    -fx-background-image: url(../image/cellDesign06_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cellPat6:pressed {
+    -fx-background-image: url(../image/cellDesign06_S.png);
+	-fx-background-size: 122px 122px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cellPat7 {
+    -fx-background-image: url(../image/cellDesign07_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cellPat7:hover {
+  	-fx-background-image: url(../image/cellDesign07_S.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cellPat7:pressed {
+    -fx-background-image: url(../image/cellDesign07_S.png);
+	-fx-background-size: 122px 122px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+
+
+
+.cell00 {
+    -fx-background-image: url(../image/CELL00_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+
+}
+.cell00:hover {
+	-fx-background-image: url(../image/CELL00_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+
+}
+.cell00:pressed {
+    -fx-background-image: url(../image/CELL00_ON.png);
+    -fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell02 {
+    -fx-background-image: url(../image/CELL02_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell02:hover {
+	-fx-background-image: url(../image/CELL02_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell02:pressed {
+	-fx-background-image: url(../image/CELL02_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cell04 {
+    -fx-background-image: url(../image/CELL04_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell04:hover {
+	-fx-background-image: url(../image/CELL04_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-height: 125px;
+}
+.cell04:pressed {
+	-fx-background-image: url(../image/CELL04_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cell06 {
+    -fx-background-image: url(../image/CELL06_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell06:hover {
+	-fx-background-image: url(../image/CELL06_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell06:pressed {
+	-fx-background-image: url(../image/CELL06_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+
+.cell11 {
+    -fx-background-image: url(../image/CELL11_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell11:hover {
+	-fx-background-image: url(../image/CELL11_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell11:pressed {
+	-fx-background-image: url(../image/CELL11_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell13 {
+    -fx-background-image: url(../image/CELL13_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell13:hover {
+	-fx-background-image: url(../image/CELL13_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell13:pressed {
+	-fx-background-image: url(../image/CELL13_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell15 {
+    -fx-background-image: url(../image/CELL15_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell15:hover {
+	-fx-background-image: url(../image/CELL15_ON.png);
+	-fx-background-size: 125px 125px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell15:pressed {
+	-fx-background-image: url(../image/CELL15_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell17 {
+    -fx-background-image: url(../image/CELL17_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell17:hover {
+	-fx-background-image: url(../image/CELL17_ON.png);
+	-fx-background-size: 125px 125px;
+
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell17:pressed {
+	-fx-background-image: url(../image/CELL17_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell20 {
+    -fx-background-image: url(../image/CELL20_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell20:hover {
+	-fx-background-image: url(../image/CELL20_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell20:pressed {
+	-fx-background-image: url(../image/CELL20_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell22 {
+    -fx-background-image: url(../image/CELL22_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell22:hover {
+	-fx-background-image: url(../image/CELL22_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell22:pressed {
+	-fx-background-image: url(../image/CELL22_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell24 {
+    -fx-background-image: url(../image/CELL24_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell24:hover {
+	-fx-background-image: url(../image/CELL24_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell24:pressed {
+	-fx-background-image: url(../image/CELL24_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell26 {
+    -fx-background-image: url(../image/CELL26_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell26:hover {
+	-fx-background-image: url(../image/CELL26_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell26:pressed {
+	-fx-background-image: url(../image/CELL26_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell31 {
+    -fx-background-image: url(../image/CELL31_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell31:hover {
+	-fx-background-image: url(../image/CELL31_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cell31:pressed {
+	-fx-background-image: url(../image/CELL31_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell33 {
+    -fx-background-image: url(../image/CELL33_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell33:hover {
+	-fx-background-image: url(../image/CELL33_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cell33:pressed {
+	-fx-background-image: url(../image/CELL33_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell35 {
+    -fx-background-image: url(../image/CELL35_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell35:hover {
+	-fx-background-image: url(../image/CELL35_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cell35:pressed {
+	-fx-background-image: url(../image/CELL35_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell37 {
+    -fx-background-image: url(../image/CELL37_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell37:hover {
+	-fx-background-image: url(../image/CELL37_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cell37:pressed {
+	-fx-background-image: url(../image/CELL37_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell40 {
+    -fx-background-image: url(../image/CELL40_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell40:hover {
+	-fx-background-image: url(../image/CELL40_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell40:pressed {
+	-fx-background-image: url(../image/CELL40_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell42 {
+    -fx-background-image: url(../image/CELL42_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell42:hover {
+	-fx-background-image: url(../image/CELL42_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cell42:pressed {
+	-fx-background-image: url(../image/CELL42_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell44 {
+    -fx-background-image: url(../image/CELL44_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell44:hover {
+	-fx-background-image: url(../image/CELL44_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cell44:pressed {
+	-fx-background-image: url(../image/CELL44_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell46 {
+    -fx-background-image: url(../image/CELL46_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell46:hover {
+	-fx-background-image: url(../image/CELL46_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell46:pressed {
+	-fx-background-image: url(../image/CELL46_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+.cell51 {
+    -fx-background-image: url(../image/CELL51_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell51:hover {
+	-fx-background-image: url(../image/CELL51_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell51:pressed {
+	-fx-background-image: url(../image/CELL51_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+ }
+
+.cell53 {
+    -fx-background-image: url(../image/CELL53_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell53:hover {
+	-fx-background-image: url(../image/CELL53_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell53:pressed {
+	-fx-background-image: url(../image/CELL53_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell55 {
+    -fx-background-image: url(../image/CELL55_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell55:hover {
+	-fx-background-image: url(../image/CELL55_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell55:pressed {
+	-fx-background-image: url(../image/CELL55_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+.cell57 {
+    -fx-background-image: url(../image/CELL57_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell57:hover {
+	-fx-background-image: url(../image/CELL57_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;}
+.cell57:pressed {
+	-fx-background-image: url(../image/CELL57_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell60 {
+    -fx-background-image: url(../image/CELL60_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell60:hover {
+	-fx-background-image: url(../image/CELL60_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell60:pressed {
+	-fx-background-image: url(../image/CELL60_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell62 {
+    -fx-background-image: url(../image/CELL62_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell62:hover {
+	-fx-background-image: url(../image/CELL62_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+ }
+.cell62:pressed {
+	-fx-background-image: url(../image/CELL62_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+ }
+
+.cell64 {
+    -fx-background-image: url(../image/CELL64_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell64:hover {
+	-fx-background-image: url(../image/CELL64_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell64:pressed {
+	-fx-background-image: url(../image/CELL64_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell66 {
+    -fx-background-image: url(../image/CELL66_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell66:hover {
+	-fx-background-image: url(../image/CELL66_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell66:pressed {
+	-fx-background-image: url(../image/CELL66_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell71 {
+    -fx-background-image: url(../image/CELL71_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell71:hover {
+	-fx-background-image: url(../image/CELL71_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell71:pressed {
+	-fx-background-image: url(../image/CELL71_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell73 {
+    -fx-background-image: url(../image/CELL73_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell73:hover {
+	-fx-background-image: url(../image/CELL73_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell73:pressed {
+	-fx-background-image: url(../image/CELL73_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+.cell75 {
+    -fx-background-image: url(../image/CELL75_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell75:hover {
+	-fx-background-image: url(../image/CELL75_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell75:pressed {
+	-fx-background-image: url(../image/CELL75_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;}
+
+.cell77 {
+    -fx-background-image: url(../image/CELL77_OFF.png);
+    -fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell77:hover {
+	-fx-background-image: url(../image/CELL77_ON.png);
+	-fx-background-size: 125px 125px;
+ 	-fx-max-width: 125px;
+ 	-fx-max-height: 125px;
+}
+.cell77:pressed {
+	-fx-background-image: url(../image/CELL77_ON.png);
+	-fx-background-size: 122px 122px;
+ 	-fx-max-width: 122px;
+ 	-fx-max-height: 122px;
+}
+
+
+
+
+
+
+.pon1 {
+	-fx-background-image: url(../image/pon1_L.png);
+	-fx-background-size: 100px 100px;
+}
+
+.pon2 {
+	-fx-background-image: url(../image/pon2_L.png);
+	-fx-background-size: 100px 100px;
+}
+
+.pon3 {
+	-fx-background-image: url(../image/pon3_L.png);
+	-fx-background-size: 100px 100px;
+}
+
+.pon4 {
+	-fx-background-image: url(../image/pon4_L.png);
+	-fx-background-size: 100px 100px;
+}
+
+
+
+.menuLayout {
+    -fx-background-image: url(../image/menuLayout.png);
+	-fx-background-size: 500px 416px;
+ 	-fx-max-width: 500px;
+ 	-fx-max-height: 416px;
+}
+
+
+
+.cellNewBTN {
+    -fx-background-image: url(../image/menuBTN3_OFF.png);
+    -fx-background-size: 235px 64px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 64px;
+}
+.cellNewBTN:hover {
+    -fx-background-image: url(../image/menuBTN3_ON.png);
+	-fx-background-size: 235px 64px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 64px;
+}
+.cellNewBTN:pressed {
+    -fx-background-image: url(../image/menuBTN3_ON.png);
+	-fx-background-size: 235px 61px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 61px;
+}
+
+
+.cellResumeBTN {
+    -fx-background-image: url(../image/menuBTN2_OFF.png);
+    -fx-background-size: 235px 64px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 64px;
+}
+.cellResumeBTN:hover {
+    -fx-background-image: url(../image/menuBTN2_ON.png);
+	-fx-background-size: 235px 64px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 64px;
+}
+.cellResumeBTN:pressed {
+    -fx-background-image: url(../image/menuBTN2_ON.png);
+	-fx-background-size: 235px 61px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 61px;
+}
+
+
+
+.cellQuitBTN {
+    -fx-background-image: url(../image/menuBTN2_OFF.png);
+    -fx-background-size: 235px 64px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 64px;
+}
+.cellQuitBTN:hover {
+    -fx-background-image: url(../image/menuBTN2_OFF.png);
+	-fx-background-size: 235px 64px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 64px;
+}
+.cellQuitBTN:pressed {
+    -fx-background-image: url(../image/menuBTN2_OFF.png);
+	-fx-background-size: 235px 61px;
+ 	-fx-max-width: 235px;
+ 	-fx-max-height: 61px;
+}
+
+
+
+.GambleBTN {
+    -fx-background-image: url(../image/gambleButton_OFF.png);
+    -fx-background-size: 180px 180px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 180px;
+}
+.GambleBTN:hover {
+    -fx-background-image: url(../image/gambleButton_ON.png);
+	-fx-background-size: 180px 180px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 180px;
+}
+.GambleBTN:pressed {
+    -fx-background-image: url(../image/gambleButton_ON.png);
+	-fx-background-size: 178px 178px;
+ 	-fx-max-width: 176px;
+ 	-fx-max-height: 176px;
+}
+
+
+.sideMenuBTN {
+    -fx-background-image: url(../image/menuButton_OFF.png);
+    -fx-background-size: 180px 40px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 40px;
+}
+.sideMenuBTN:hover {
+    -fx-background-image: url(../image/menuButton_ON.png);
+	-fx-background-size: 180px 40px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 40px;
+}
+.sideMenuBTN:pressed {
+    -fx-background-image: url(../image/menuButton_ON.png);
+	-fx-background-size: 178px 40px;
+ 	-fx-max-width: 178px;
+ 	-fx-max-height: 38px;
+}
+
+
+.playerPanel1 {
+    -fx-background-image: url(../image/playerPanel1.png);
+    -fx-background-size: 180px 180px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 180px;
+}
+
+.playerPanel2 {
+    -fx-background-image: url(../image/playerPanel2.png);
+    -fx-background-size: 180px 180px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 180px;
+}
+
+.playerPanel3 {
+    -fx-background-image: url(../image/playerPanel3.png);
+    -fx-background-size: 180px 180px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 180px;
+}
+
+.playerPanel4 {
+    -fx-background-image: url(../image/playerPanel4.png);
+    -fx-background-size: 180px 180px;
+ 	-fx-max-width: 180px;
+ 	-fx-max-height: 180px;
+}
+
+
+.gambleWindow {
+    -fx-background-image: url(../image/gambleWindow.png);
+    -fx-background-size: 843px 384px;
+ 	-fx-max-width: 843px;
+ 	-fx-max-height: 384px;
+}
+
+
+.menuWindow {
+    -fx-background-image: url(../image/menuWindow.png);
+    -fx-background-size: 562px 750px;
+ 	-fx-max-width: 562px;
+ 	-fx-max-height: 750px;
+}
+
+.sideBar {
+    -fx-background-image: url(../image/sidemenu.png);
+    -fx-background-size: 200px 1000px;
+ 	-fx-max-width: 200px;
+ 	-fx-max-height: 1000px;
+}
