@@ -19,16 +19,7 @@ So I started out with a three goals in mind:
 2. Do it in a timeline which is realstic like 2 months.
 3. Finish what you have started.
 I did reached two of the 3 goals, I took me much more time than I thought it would be, but I came to a finised project and learned more that I could imagine.
-Along the way I learned how to
-- Java 
-- JavaFX
-- CSS
-- XML
-- working on a Linux system
-- using  Eclipse
-- build layout in SceneBuilder
-- using Github
-- and much more
+Along the way I learned how to; Java, JavaFX, CSS, XML, working on a Linux system,  Eclipse, build layout in SceneBuilder, Github, and much more.
 
 ABOUT APP
 This game application is my first coding project I made, since I learned Java.
